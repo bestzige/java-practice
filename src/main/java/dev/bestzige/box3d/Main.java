@@ -3,10 +3,10 @@ package dev.bestzige.box3d;
 public class Main {
 
     public static void main(String[] args) {
-        testBox3D();
+        testBox3DCase();
     }
 
-    private static void testBox3D() {
+    private static void testBox3DCase() {
         /*
         Box3D Class -> blueprint
          */

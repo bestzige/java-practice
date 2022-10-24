@@ -3,6 +3,10 @@ package dev.bestzige.fruit;
 public class Main {
 
     public static void main(String[] args) {
+        testFruitCase();
+    }
+
+    private static void testFruitCase() {
         Fruit a = new Fruit("Apple", 150.9D, 10);
         Fruit b = new Fruit("Banana", 48.52D, 6);
 
