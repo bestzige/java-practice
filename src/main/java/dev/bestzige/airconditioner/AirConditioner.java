@@ -44,24 +44,24 @@ public class AirConditioner {
     }
 
     public void increaseTemperature() {
-        if(this.targetTemperature + 1 >= MAX_TEMPERATURE) {
-            this.targetTemperature = this.MAX_TEMPERATURE;
+        if(getTargetTemperature() + 1 >= MAX_TEMPERATURE) {
+            this.targetTemperature = MAX_TEMPERATURE;
         } else {
             this.targetTemperature++;
         }
     }
 
     public void decreaseTemperature() {
-        if(this.targetTemperature - 1 <= MIN_TEMPERATURE) {
-            this.targetTemperature = this.MIN_TEMPERATURE;
+        if(getTargetTemperature() - 1 <= MIN_TEMPERATURE) {
+            this.targetTemperature = MIN_TEMPERATURE;
         } else {
             this.targetTemperature--;
         }
     }
 
     public void changeFanSpeed() {
-        if(this.fanSpeed + 1 > MAX_FAN_SPEED) {
-            this.fanSpeed = this.MIN_FAN_SPEED;
+        if(fanSpeed + 1 > MAX_FAN_SPEED) {
+            this.fanSpeed = MIN_FAN_SPEED;
         } else {
             this.fanSpeed++;
         }
@@ -70,9 +70,9 @@ public class AirConditioner {
     @Override
     public String toString() {
         String text;
-        String fanSpeedText = this.fanSpeed == 0 ? "low" : this.fanSpeed == 1 ? "medium" : "high";
+        String fanSpeedText = fanSpeed == 0 ? "low" : fanSpeed == 1 ? "medium" : "high";
 
-        if(!this.isAirOn()){
+        if(!isAirOn()){
             text = "Air Conditioner {Status: off}";
         } else {
             text = "Air Conditioner {Status: on, Temp: " + targetTemperature + ", Fan: " + fanSpeedText + "}";
