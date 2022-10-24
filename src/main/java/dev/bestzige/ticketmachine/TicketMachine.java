@@ -1,7 +1,5 @@
 package dev.bestzige.ticketmachine;
 
-import java.text.DecimalFormat;
-
 public class TicketMachine {
 
     private double ticketPrice;
