@@ -73,15 +73,15 @@ public class Box3D {
         */
 
         /* Pattern 1
-        if(this.getWidth() < box.getWidth()) {
+        if(getWidth() < box.getWidth()) {
             return false;
         }
 
-        if(this.getLength() < box.getLength()) {
+        if(getLength() < box.getLength()) {
             return false;
         }
         */
 
-        return (this.getWidth() > box.getWidth() && this.getLength() > box.getLength());
+        return (getWidth() > box.getWidth() && getLength() > box.getLength());
     }
 }
