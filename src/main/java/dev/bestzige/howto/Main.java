@@ -21,6 +21,7 @@ public class Main {
         testMethodVoid("BestZige");
 
         System.out.println(testMethodInt(100));
+        howToUseForLoop();
     }
 
     /*
@@ -51,6 +52,30 @@ public class Main {
     */
     public static int testMethodInt(int number) {
         return number; /* ค่าที่ return ออกไปต้องเป็นชนิดเดียวกับ data type ใน method ที่ตั้งไว้*/
+    }
+
+    public static void howToUseForLoop() {
+        /*
+        การใช้ for loop ในการวนซ้ำ
+            for(ตัวแปรเริ่มต้น; เงื่อนไข; การเปลี่ยนแปลงตัวแปรเริ่มต้น) {
+                คำสั่งที่ต้องการให้ทำซ้ำ
+            }
+            ค่าที่ได้ก็คือ:
+            i = 10
+            i = 9
+            i = 8
+            i = 7
+            i = 6
+            i = 5
+            i = 4
+            i = 3
+            i = 2
+            i = 1
+        */
+
+        for(int i = 10; i > 0; i--) {
+            System.out.println("i = " + i);
+        }
     }
 
 }
