@@ -14,19 +14,16 @@ public class Q01StaticMethod {
 
     /* 2 */
     public static void main(String[] args) {
-        double meters = 55;
-        double yards = 55;
-
         /* 2.1 */
-        double lastThreeDigitsOfMyStudentId = 073D; /* งงล่ะสิว่า D คืออะไร D = double ไว้ใส่ให้มันถูกหลักๆเฉยๆ ถ้าไม่ใส่อาจมีข้อผิดพลาด */
+        double xxx = 073D; /* งงล่ะสิว่า D คืออะไร D = double ไว้ใส่ให้มันถูกหลักๆเฉยๆ ถ้าไม่ใส่อาจมีข้อผิดพลาด */
 
         /* 2.2 */
-        System.out.println(lastThreeDigitsOfMyStudentId);
+        System.out.println(xxx);
 
         /* 2.3 */
-        System.out.println(meters + " meters is " + String.format("%.2f", watchara(meters)) + " wah.");
+        System.out.println(xxx + " meters is " + String.format("%.2f", watchara(xxx)) + " wah.");
 
         /* 2.4 */
-        System.out.println(yards + " yards is " + String.format("%.2f", santawee(yards)) + " meters.");
+        System.out.println(xxx + " yards is " + String.format("%.2f", watchara(santawee(xxx))) + " meters.");
     }
 }
