@@ -17,9 +17,6 @@ public class Q02StaticVariable {
 
     /* 3 */
     public static void main(String[] args) {
-        double areaInRai = 55;
-        double areaInArces = 55;
-
         /* 3.1 */
         double xxx = 073D; /* งงล่ะสิว่า D คืออะไร D = double ไว้ใส่ให้มันถูกหลักๆเฉยๆ ถ้าไม่ใส่อาจมีข้อผิดพลาด */
 
@@ -27,9 +24,9 @@ public class Q02StaticVariable {
         System.out.println(xxx);
 
         /* 3.3 */
-        System.out.println(areaInRai + " rai is " + String.format("%.2f", awee(xxx)) + " arces.");
+        System.out.println(xxx + " rai is " + String.format("%.2f", awee(xxx)) + " arces.");
 
         /* 3.4 */
-        System.out.println(areaInArces + " arces is " + String.format("%.2f", wat(xxx)) + " rai.");
+        System.out.println(xxx + " arces is " + String.format("%.2f", wat(xxx)) + " rai.");
     }
 }

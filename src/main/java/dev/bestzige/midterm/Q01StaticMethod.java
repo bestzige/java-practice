@@ -5,12 +5,12 @@ public class Q01StaticMethod {
     /* 1.1 */
     private static double watchara(double lengthInMeters) {
         return lengthInMeters * 0.5;
-    }
+    } // return wah
 
     /* 1.2 */
     private static double santawee(double lengthInYards) {
         return lengthInYards * 0.91;
-    }
+    } // return meter
 
     /* 2 */
     public static void main(String[] args) {
@@ -25,5 +25,6 @@ public class Q01StaticMethod {
 
         /* 2.4 */
         System.out.println(xxx + " yards is " + String.format("%.2f", watchara(santawee(xxx))) + " meters.");
+
     }
 }

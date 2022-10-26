@@ -28,8 +28,8 @@ public class Main {
         System.out.println("1st Box Length: " + firstBox.getLength());
         System.out.println("2nd Box Length: " + secondBox.getLength());
 
-        System.out.println("firstBox String: " + firstBox.toString());
-        System.out.println("secondBox String: " + secondBox.toString());
+        System.out.println("firstBox String: " + firstBox);
+        System.out.println("secondBox String: " + secondBox);
 
         System.out.println("1st canCover 2nd : " + firstBox.canCover(secondBox));
     }
