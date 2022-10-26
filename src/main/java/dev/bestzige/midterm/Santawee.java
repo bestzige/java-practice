@@ -1,4 +1,4 @@
-package dev.bestzige.midtermbyagentranong;
+package dev.bestzige.midterm;
 
 public class Santawee {
 
