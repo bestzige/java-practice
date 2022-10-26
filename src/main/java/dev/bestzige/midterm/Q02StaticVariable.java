@@ -21,15 +21,15 @@ public class Q02StaticVariable {
         double areaInArces = 55;
 
         /* 3.1 */
-        double lastThreeDigitsOfMyStudentId = 073D; /* งงล่ะสิว่า D คืออะไร D = double ไว้ใส่ให้มันถูกหลักๆเฉยๆ ถ้าไม่ใส่อาจมีข้อผิดพลาด */
+        double xxx = 073D; /* งงล่ะสิว่า D คืออะไร D = double ไว้ใส่ให้มันถูกหลักๆเฉยๆ ถ้าไม่ใส่อาจมีข้อผิดพลาด */
 
         /* 3.2 */
-        System.out.println(lastThreeDigitsOfMyStudentId);
+        System.out.println(xxx);
 
         /* 3.3 */
-        System.out.println(areaInRai + " rai is " + String.format("%.2f", awee(areaInRai)) + " arces.");
+        System.out.println(areaInRai + " rai is " + String.format("%.2f", awee(xxx)) + " arces.");
 
         /* 3.4 */
-        System.out.println(areaInArces + " arces is " + String.format("%.2f", wat(areaInArces)) + " rai.");
+        System.out.println(areaInArces + " arces is " + String.format("%.2f", wat(xxx)) + " rai.");
     }
 }
