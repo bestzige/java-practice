@@ -1,6 +1,6 @@
 package util.ชื่อตัวเองพิมเล็ก;
 
-public final class Util[เลขสามตัวเอง] {
+public final class Util000[เลขสามตัวเอง] {
     private final double [ชื่อตัวเองพิมเล็ก] = [เลขสามตัวเอง].9;
 
     public static double compute[เลขสามตัวเอง]RightTriangleArea(double side1, double side2) {
