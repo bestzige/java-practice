@@ -44,6 +44,11 @@ public class Main {
         for(Application app : apps) {
             System.out.println(app);
         }
+
+        for(int i = 0; i < apps.length; i++) {
+            mac.addApplication(new Application("App " + i, "Description " + i, 10));
+        }
+
         System.out.println("getUsedStorage() = " + mac.getUsedStorage());
 
     }
