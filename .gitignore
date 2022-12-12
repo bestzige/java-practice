@@ -1,3 +1,8 @@
 .idea
 /target
 /src/test
+/src/test/main/java/dev/bestzige/questionanswer
+/src/test/main/java/dev/bestzige/membercarda
+/src/test/main/java/dev/bestzige/membercardb
+/src/test/main/java/dev/bestzige/moneyexchanger
+/src/test/main/java/dev/bestzige/movie
